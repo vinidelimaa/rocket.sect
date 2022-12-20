@@ -1,0 +1,144 @@
+
+
+/* FONT IMPORT */
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@500;700&family=Open+Sans:wght@500;700&display=swap');
+
+/* ROOTS */
+:root {
+    --jet: 'JetBrains Mono', monospace;
+    --open: 'Open Sans', sans-serif;
+
+    --c1: #2F2E41;
+    --c2: #00BFA6;  
+    --c3: #C2C2C2;
+    --c4: #FFFFFF;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--c1);
+    color: var(--c4);
+}
+
+
+.page {
+    width: 1100px;
+    margin: auto;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 70px;
+}
+
+
+ul {
+    display: flex;
+    gap: 65px;
+}
+
+
+li a {
+    font-family: var(--jet);
+    font-size: 14px;
+    line-height: 28px;
+}
+
+
+li, a {
+    text-decoration: none;
+    list-style: none;
+}
+
+
+nav a:hover {
+    color: var(--c2);
+}
+
+
+main {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+    margin: 100px auto 150px;
+}
+
+
+main h1 {
+    font-family: var(--jet);
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 40px;
+
+    margin-bottom: 60px;
+}
+
+
+section {
+    text-align: center;
+}
+
+
+span {
+    color: var(--c2);
+}
+
+
+p {
+    font-family: var(--open);
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--c3);
+    opacity: .9;
+}
+
+
+strong {
+    color: var(--c3);
+}
+
+
+#line {
+    width: 568px;
+    height: 0px;
+    margin: 0 auto 27px;
+    border: 0.5px #00BFA6 solid;
+}
+
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+footer p {
+    font-family: var(--jet);
+    color: var(--c4);
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+
+    text-align: center;
+    position: relative;
+}
+
+
+footer a:hover {
+    color: var(--c2);
+}
+
+
+#locker {
+    position: absolute;
+    left: 0;
+    margin-left: 20px;
+}
